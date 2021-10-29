@@ -1,0 +1,410 @@
+/* ここから下に記載していく */
+
+body{
+  width: 1200px;
+}
+
+#header{
+  display:flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.logo{
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.menu{
+  display:flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.nav{
+  font: size 21px;
+  padding-right: 50px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+/* メインビジュアルの写真のすたリング */
+.main{
+  background-image:url(../img/mainbg.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 360px;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/* mainの styling */
+.chatch{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top:120px;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+.sub{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+    text-shadow: 1px 2px 3px #808080;
+}
+
+/* aboutのstyling */
+.about{
+  text-align: center;
+  color:#ffd61a;
+  font-weight: bold;
+  font-size:24px;
+  padding-top:60px;
+  padding-bottom: 30px;
+}
+
+.about0{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.about1, .about2, .about3, .about4,about5{
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.aboutbox{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom:60px;
+}
+
+.about_pic{
+  width: 25%;
+}
+
+/* Corse Styling */
+
+.course{
+  text-align: center;
+  font-weight: bold;
+  font-size:24px;
+  padding-bottom: 30px;
+}
+
+.course0{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.coursepics{
+  width: 540px;
+  /* background: blue; */
+  box-sizing:inherit;
+}
+
+.course_box1_style,
+.course_box3_style{
+  background:#fafafa;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 540px;
+}
+
+.course_box2_style{
+  background:#fafafa;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 540px;
+}
+
+.course_smallbox1,
+.course_smallbox3{
+  /* background: pink; */
+  width: 480px;
+  padding-left: 50px;
+}
+
+.course_smallbox2{
+  /* background: pink; */
+  width: 480px;
+  padding-right: 50px;
+  margin-left: auto;
+}
+
+h2.course_section1,
+h2.course_section3{
+  /* background: gray; */
+  /* text-align: center; */
+  font-weight: bold;
+  font-size:18px;
+}
+h2.course_section2{
+  /* background: gray; */
+  /* text-align: center; */
+  font-weight: bold;
+  font-size:18px;
+  text-align: right;
+}
+
+p.course_section1,
+p.course_section2,
+p.course_section3{
+  /* background: yellowgreen; */
+  /* text-align: center; */
+  font-size:12px;
+  padding-top: 40px;
+}
+
+
+.course_box1{
+  display:flex;
+  justify-content:center;
+}
+.course_box2{
+  display:flex;
+  justify-content:center;
+
+}
+.course_box3{
+  display:flex;
+  justify-content:center;
+
+}
+
+
+
+
+/* news styling */
+.news{
+  text-align: center;
+  color:#ffd61a;
+  font-weight: bold;
+  font-size:24px;
+  padding-top:60px;
+  padding-bottom: 30px;
+}
+
+.newsbox1,
+.newsbox2,
+.newsbox3{
+  /* background-color:red; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.newsp{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.newsboxs{
+  /* width: 300px; */
+  display:flex;
+  justify-content:center;
+  padding-bottom: 60px;
+  
+}
+
+.newsbox1,
+.newsbox2,
+.newsbox3{
+  width: 300px;
+}
+
+.newsbox1:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.newsbox2:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.newsbox3:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.newsdate1,
+.newsdate2,
+.newsdate3{
+  font-size:12px;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+.news1,
+.news2,
+.news3{
+  font-size:12px;
+  width: 300px;
+}
+
+.newspic{
+  width: 300px;
+}
+
+/* なぜか中央に寄せられず・・・ */
+.newsbtn{
+  width: 240px;
+  height: 40px;
+  background:#ffd61a;
+  color: white;
+  font-size: 18px;
+  border-color:white;
+}
+
+.newsbtn:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.nbtn{
+  padding-left: 470px;
+  /* display:block;
+  display:flex; */
+  /* justify-content:center;
+  align-items: center; */
+  padding-bottom: 30px;
+  /* background:#707070; */
+}
+
+/* accessのstyling */
+
+.accesss_all{
+  background:#fafafa;
+  /* width : 80vw ;  */
+
+  /* text-align:center; */
+}
+
+.access{
+  text-align: center;
+  font-weight: bold;
+  font-size:24px;
+  padding-top:60px;
+  padding-bottom: 30px;
+}
+
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width : 80vw ; 
+  height: 260px;
+  padding-bottom: 60px;
+}
+
+.company{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+
+.company_detail{
+  width: 60vw;
+  /* border: 1px solid #ccc; */
+  text-align: left;
+  /* background: blue; */
+  margin: 0 auto;
+}
+
+.company_detail th,
+.company_detail td{
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  font-size: 10px;
+  }
+
+/* contactのstyling */
+
+.contacth1{
+  text-align: center;
+  font-weight: bold;
+  font-size:24px;
+  padding-top:60px;
+  padding-bottom: 30px;
+}
+
+.contact1, .contact2, .contact3{
+  text-align: center;
+  font-size: 14px;
+}
+.contact1{
+  padding-bottom: 60px;
+}
+.contact2{
+  padding-bottom: 30px;
+}
+.contact3{
+  padding-bottom: 70px;
+}
+
+.contactbtn{
+  width: 240px;
+  height: 40px;
+  background:#ffd61a;
+  color: white;
+  font-size: 18px;
+  border-color:white;
+  display:block;
+  margin: 0 auto;
+}
+
+.contactbtn:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.contact {
+  width: 760px;/*横幅*/
+  margin: 0 auto;/*中央寄せ*/
+  padding: 60px 0;
+}
+
+.contact-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-top:solid 1px#bfbfbf;
+  border-bottom:solid 1px#bfbfbf;
+}
+
+.contact-item, .contact-body{
+  padding: 20px;
+  border-bottom:solid 1px#bfbfbf;
+
+
+}
+
+.contact-item{
+    text-align: left;
+    width: 240px;
+    border-right:solid 1px#bfbfbf;
+}
+
+.contact-body{
+    width: 400px;
+}
+
+#footer{
+  margin-top: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #707070;
+  text-align:center;
+  color: white;
+}
